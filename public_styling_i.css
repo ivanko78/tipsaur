@@ -382,7 +382,7 @@ form input:focus {
     height: 150px;
     border-radius: 15px;
     /*border: 1px solid #012880;*/
-    background-image: url('logo2.svg');
+    background-image: url('https://cdn.jsdelivr.net/gh/ivanko78/tipsaur@main/logo2.svg');
     background-size: cover;
 	/*background-image: linear-gradient(-180deg, #FF89D6 0%, #C01F9E 100%);*/
     box-shadow: 0 0.75rem 1rem 0 rgba(22,75,195,0.50), 0 -0.25rem 1.25rem #d55c10 inset,
