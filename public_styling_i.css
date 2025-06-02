@@ -164,6 +164,10 @@ tbody .tr:hover {
 	background: lightgrey;
 	cursor: pointer;
 }
+tbody tr:hover {
+	background: lightgrey;
+	cursor: pointer;
+}
 .strelica {
     width:100%;
     color: white; 
