@@ -44,7 +44,7 @@ document.getElementById("menuBtn").addEventListener("click", function() {
     if (caret) {
         caret.classList.toggle("toggle");
         
-        const parent = this.closest("[style*='z-index']") || this.parentElement;
+        const parent = this.offsetParent || this.parentElement;
         if (caret.classList.contains("toggle")) {
             parent.style.zIndex = "20";
         } else {
@@ -57,7 +57,7 @@ document.getElementById("ligaBtn").addEventListener("click", function() {
     if (caret) {
         caret.classList.toggle("toggle");
         
-        const parent = this.closest("[style*='z-index']") || this.parentElement;
+        const parent = this.offsetParent || this.parentElement;
         if (caret.classList.contains("toggle")) {
             parent.style.zIndex = "20";
         } else {
