@@ -829,7 +829,7 @@ form input:focus {
     top: 20px;
     -webkit-animation: milo 5s 5 forwards;
 }
-//Kalendar
+/*Kalendar*/
 .calendarCont {
     align-self: flex-start;
     font-family: 'Lato', sans-serif;
